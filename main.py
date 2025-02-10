@@ -8,4 +8,4 @@ def get_days_from_today(date: str) -> int:
         
     except ValueError:
             raise ValueError("Invalid date format. Use 'YYYY-MM-DD'.")
-print(get_days_from_today("2022-02-03"))
+print(get_days_from_today("2022-02-03")) 
